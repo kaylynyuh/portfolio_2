@@ -1,4 +1,12 @@
 .jumbotron p {
   font-size: 1em;
   letter-spacing: .025em;
+  margin-bottom: .75em;
+}
+
+a.btn.btn-primary.btn-lg {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: .25em;
+  color: #111;
 }
