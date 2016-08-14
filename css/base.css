@@ -1,8 +1,13 @@
 body {
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: 0, auto;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
+  letter-spacing: .025em;
 }
