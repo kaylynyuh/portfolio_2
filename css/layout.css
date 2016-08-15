@@ -1,6 +1,12 @@
+.icon-menu {
+  float: right;
+  padding-top: .2em;
+  padding-right: .35em; 
+}
+
 .jumbotron {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 70%;
+  margin-top: 55%;
 }
