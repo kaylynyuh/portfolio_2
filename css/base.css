@@ -8,6 +8,7 @@ body {
   background-attachment: fixed;
   top: 0;
   left: 0;
+   transition: background-color .5s;
 }
 
 header {
@@ -16,21 +17,19 @@ header {
   color: #111;
 }
 
+span {
+  font-size: 30px;
+  cursor: pointer;
+  float: left;
+}
+
 h1 {
   font-size: 2.5em;
   letter-spacing: .025em;
   padding-top: .15em;
 }
 
-
-.work {
-  display: none;
-}
-
-.skills {
-  display: none;
-}
-
-.contact {
-  display: none;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
