@@ -1,0 +1,16 @@
+[
+  {
+    "projectName": "BroNacho",
+    "projectLink": "http://www.bronacho.com/html/results.html",
+    "iconClass": "icon-github",
+    "description": "A website that measures compatability between users based off of user selections from a list of ingredients that they pick and choose from to design their \"ideal nacho.\"",
+    "descriptionReadMore": "Their selections are generated into a percentage that are then compared to other user percentages and displayed on a results page. The results page displays the top three most compatible \"BroNachos\" as well the bottom three of the least compatible which are referred to as \"Nah'cho Bros.\"  "
+  },
+  {
+     "projectName": "BusMall",
+     "projectLink":  "https://kaylynyuh.github.io/bus-mall",
+     "iconClass": "icon-github",
+     "description": "An app that displays potential products to individual focus groups that allows users to select the products that they would most likely use or want.",
+     "descriptionReadMore": "The information generated helps market researches determine which products to feature in their catalog based off of what products are most likely to sell. This helps filter out products that will be popular as well as products that will be less popular."
+  }
+]

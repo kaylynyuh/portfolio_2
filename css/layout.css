@@ -1,12 +1,18 @@
-.icon-menu {
-  float: right;
-  padding-top: .2em;
-  padding-right: .35em; 
+.sidenav {
+    height: 100%;
+    width: 7.5em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.jumbotron {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 55%;
+#main {
+    transition: margin-left .5s;
+    padding: 1.25em;
+    text-align: center;
 }
