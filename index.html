@@ -10,6 +10,34 @@
     <link rel="stylesheet" href="css/modules.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Social Icons Template -->
+    <script id="social-icons-template" type="text/x-handlebars-template">
+      <li><a href="{{url}}" class="{{iconClass}}"></a></li>
+    </script>
+    <!-- Work Template -->
+    <script id="work-template" type="text/x-handlebars-template">
+      <h2>{{projectName}}<a href="{{projectLink}}" class="{{iconClass}}"></a></h2>
+      <p>{{description}}<br/>
+        <span class="read-more-content">{{descriptionReadMore}}</span></p>
+      </script>
+      <!-- Skills Template -->
+      <script id="skills-template" type="text/x-handlebars-template">
+        <li>{{skillName}}</li>
+      </script>
+      <!-- Repo Template -->
+      <script id="repo-template" type="text/x-handlebars-template">
+        <li>
+          <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
+          <p>Description: {{description}}</p>
+          <p>Primary Language: {{language}}</p>
+          <p>Created: {{created_at}}</p>
+          <p>Last Updated: {{updated_at}}</p>
+          {{#if watchers_count}}
+          <p>{{watchers}} watching this repo</p>
+          {{/if}}
+        </li>
+      </script>
+      <!-- End of Templates -->
   </head>
   <body>
     <span style="font-size:1.5em;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -26,6 +54,16 @@
         <p><a class="btn btn-primary btn-lg" href="/skills" role="button">See my work </a></p>
       </div>
     </header>
+    <main>
+      <section class="about">
+        <h2>About</h2>
+      </section>
+      <section class="contact">
+        <h2>Contact</h2>
+      </section>
+      <section class="work">
+        <h2>Work</h2>
+      </section>
     <script src="vendor/scripts/page.js"></script>
     <script src="vendor/scripts/routes.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
