@@ -38,7 +38,7 @@
       // Load our json data
       $.ajax({
         type: 'GET',
-        url: '/data/work.json',
+        url: '../data/work.json',
         dataType: 'json'
       }).done(function(data) {
         // Store that data in localStorage so we can skip the server call next time
