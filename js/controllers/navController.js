@@ -1,5 +1,3 @@
-(function () {
-
   function openNav() {
     document.getElementById('mySidenav').style.width = '8em';
     document.getElementById('main').style.marginLeft = '8em';
@@ -9,5 +7,3 @@
     document.getElementById('mySidenav').style.width = '0';
     document.getElementById('main').style.marginLeft = '0';
   }
-
-})(window);
