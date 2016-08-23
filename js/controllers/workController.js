@@ -10,11 +10,11 @@
     var workController = {};
     workController.reveal = function() {
       // $('.nav-item').hide();
-      $('.work').fadeIn();
+      $('[data-section=work]').fadeIn();
     };
   };
 
   goToWorkPage();
   displayWorkPage();
-  
+
 })(window);
