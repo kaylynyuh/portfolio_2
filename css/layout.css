@@ -16,3 +16,11 @@
     padding: 1.25em;
     text-align: center;
 }
+
+@media screen and (min-width: 760px) {
+
+  .sidenav {
+    width: 10.5em;
+  }
+  
+}
