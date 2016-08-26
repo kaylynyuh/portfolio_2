@@ -33,3 +33,21 @@ a.btn.btn-primary.btn-lg {
   margin-bottom: 1em;
   margin-top: .25em;
 }
+
+@media screen and (min-width: 760px) {
+
+  .sidenav a {
+    padding: 20px 0px 20px 45px;
+    font-size: 1.75em;
+    letter-spacing: .025em;
+  }
+
+  #main {
+    margin-top: -40%;
+  }
+
+  #main p {
+    font-size: 1.5em;
+  }
+
+}
