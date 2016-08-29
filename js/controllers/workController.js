@@ -1,4 +1,6 @@
-(function () {
+(function (module) {
+
+  var workController = {};
 
   function goToWorkPage () {
     $('#see-work').on('click', function(){
@@ -7,9 +9,7 @@
   };
 
   function displayWorkPage () {
-    var workController = {};
     workController.reveal = function() {
-      // $('.nav-item').hide();
       $('[data-section=work]').fadeIn();
     };
   };
@@ -17,4 +17,5 @@
   goToWorkPage();
   displayWorkPage();
 
+  module.workController = workController;
 })(window);
