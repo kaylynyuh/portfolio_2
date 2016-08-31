@@ -10,7 +10,7 @@
 
   function displayWorkPage () {
     workController.reveal = function() {
-      $('[data-section=work]').fadeIn();
+      $('.work').fadeIn();
     };
   };
 
